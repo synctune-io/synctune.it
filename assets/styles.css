@@ -237,6 +237,14 @@ p + p {
   padding-block: clamp(56px, 8vw, 112px);
 }
 
+.hero-copy {
+  container-type: inline-size;
+}
+
+.hero h1 {
+  font-size: clamp(2.125rem, 12cqw, 5.5rem);
+}
+
 .hero-copy > p:not(.eyebrow) {
   max-width: 43ch;
   margin-top: 30px;
@@ -760,10 +768,6 @@ input[type="search"] {
     max-width: 750px;
   }
 
-  .hero h1 {
-    font-size: clamp(4.5rem, 12vw, 7.5rem);
-  }
-
   .routes {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -808,10 +812,6 @@ input[type="search"] {
 
   .hero {
     gap: 48px;
-  }
-
-  .hero h1 {
-    font-size: clamp(3rem, 14.75vw, 5.4rem);
   }
 
   .routes {

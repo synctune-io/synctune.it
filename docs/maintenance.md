@@ -6,6 +6,10 @@
 and `about.html` covers the company, Matteo and privacy. Edit those files
 directly. `assets/styles.css` contains the layout and approved color tokens.
 
+The home headline is "An orchestra of independent ideas. In sync." Keep
+"In sync." on its own line. Its type scales to the hero column with CSS
+container units so the longer wording stays balanced on narrow screens.
+
 The optional `assets/directory.js` filters existing directory cards in the
 browser. All projects remain readable and linked without JavaScript. Searches
 include branch names and card text. They do not use a network service, storage
