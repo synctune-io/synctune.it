@@ -8,7 +8,8 @@ directly. `assets/styles.css` contains the layout and approved color tokens.
 
 The optional `assets/directory.js` filters existing directory cards in the
 browser. All projects remain readable and linked without JavaScript. Searches
-do not use a network service, storage or analytics.
+include branch names and card text. They do not use a network service, storage
+or analytics.
 
 When adding a directory entry, put `data-project` on its article inside the
 appropriate `data-project-group` section. Keep its description, availability

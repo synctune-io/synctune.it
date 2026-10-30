@@ -13,10 +13,11 @@ if (controls) {
 
     for (const group of groups) {
       let matches = 0;
+      const groupName = group.querySelector("h2").textContent;
 
       for (const project of group.querySelectorAll("[data-project]")) {
         const matchesBranch = branch.value === "all" || group.dataset.projectGroup === branch.value;
-        const matchesSearch = project.textContent.toLocaleLowerCase("en").includes(query);
+        const matchesSearch = `${groupName} ${project.textContent}`.toLocaleLowerCase("en").includes(query);
         project.hidden = !matchesBranch || !matchesSearch;
         if (!project.hidden) matches += 1;
       }
