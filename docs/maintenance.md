@@ -28,6 +28,9 @@ links deliberately use the verified current repositories, often under
 the new repository and update links here and on the relevant branch site.
 The directory makes no live GitHub API calls.
 
+The public branch name is **Synctune Consulting**, at `consulting.synctune.it`.
+Its GitHub organization intentionally retains the `synctune-customers` slug.
+
 Keep private repositories unlinked. Do not add customer identities, logos,
 case studies, screenshots or delivery details without authorization.
 Publicly announced private projects may be named with an availability label.
@@ -49,7 +52,7 @@ describe it as a Synctune branch.
 
 ## Brand source and rights
 
-Artwork and unmodified fonts come from the approved collection in
+Synctune family artwork and unmodified fonts come from the approved collection in
 [synctune-io/branding](https://github.com/synctune-io/branding),
 snapshot `55764ef`.
 
@@ -67,6 +70,24 @@ for company or project artwork.
 The site has no CDN assets, third-party scripts, cookies, embedded players,
 contact forms or tracking. Keep that true when changing content, or update the
 privacy text to describe the actual behavior.
+
+## Project logos
+
+The home-page showcases and portfolio cards use the projects' actual app logos,
+not the Synctune branch symbols. The branch symbols still identify the branches.
+
+- `assets/projects/porto.png` is an unmodified copy of
+  `ui/electron/assets/porto.png` from `mbianchidev/porto` at commit
+  `22cf0b37e54aa3866cec50f311c6552fbe19dfba`. Its MIT notice is retained in
+  `assets/projects/licenses/porto-MIT.txt`.
+- `assets/projects/studio-duo.svg` is an unmodified copy of
+  `assets/branding/studio-duo-icon.svg` from `mbianchidev/studio-duo` at commit
+  `bf853019806303eaadd1c179dca4c1fa8bc49286`. The supplied AGPL-3.0 license is
+  retained in `assets/projects/licenses/studio-duo-AGPL-3.0.txt`, alongside the
+  editable SVG itself.
+
+Keep the original artwork, provenance and license notices when updating these
+assets. Neither logo loads external fonts, scripts or services.
 
 ## Before publishing a change
 

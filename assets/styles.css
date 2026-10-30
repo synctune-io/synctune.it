@@ -38,7 +38,7 @@
   --music: #FF6488;
   --open: #4CDEEC;
   --edu: #AAA0FF;
-  --customers: #FFB153;
+  --consulting: #FFB153;
   --gaming: #EB79F4;
   --finance: #7CE5B5;
   --rule: rgb(245 242 233 / 23%);
@@ -359,7 +359,7 @@ p + p {
 .theme-music { --branch: var(--music); }
 .theme-open { --branch: var(--open); }
 .theme-edu { --branch: var(--edu); }
-.theme-customers { --branch: var(--customers); }
+.theme-consulting { --branch: var(--consulting); }
 .theme-gaming { --branch: var(--gaming); }
 .theme-finance { --branch: var(--finance); }
 
@@ -591,6 +591,18 @@ input[type="search"] {
 
 .project-card h3 {
   overflow-wrap: anywhere;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.project-title img {
+  flex: 0 0 48px;
+  width: 48px;
 }
 
 .project-card p:not(.meta) {
