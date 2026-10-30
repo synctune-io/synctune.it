@@ -39,8 +39,9 @@ links are relative, so the content also works under a Pages repository path.
 Canonical and social-preview URLs intentionally use the final custom domain.
 
 Deploy each site independently. Links to other Synctune subdomains will work
-when their owners deploy those sites. Denote, Open Playlist and Moguri are
-external project links; this repository does not publish their websites.
+when their owners deploy those sites. Denote, Open Playlist, Open Playlist
+Engine and Moguri are external project links; this repository does not publish
+their websites.
 
 ## Other static hosts
 

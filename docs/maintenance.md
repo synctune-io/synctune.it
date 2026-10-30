@@ -34,9 +34,18 @@ Publicly announced private projects may be named with an availability label.
 Do not turn those labels into download or signup links without a real release.
 Mark archives and partner projects accurately.
 
-Matteo's existing `mbianchi.dev` is linked, not rebuilt. Denote, Open Playlist
-and Moguri also keep their own sites and brands. FIRE Tools belongs to partner
-Fire Tools Inc; do not describe it as a Synctune branch.
+Matteo's existing `mbianchi.dev` is linked, not rebuilt. The independent project
+websites use these intended destinations:
+
+- Denote: `https://denote.synctune.it`
+- Open Playlist: `https://open-playlist.synctune.it`
+- Open Playlist Engine: `https://op-engine.synctune.it`
+- Moguri: `https://moguri.synctune.it`
+
+These domains are intentional even before their websites are deployed. Keep
+them linked from the home, company and portfolio pages. This repository does
+not build those websites. FIRE Tools belongs to partner Fire Tools Inc; do not
+describe it as a Synctune branch.
 
 ## Brand source and rights
 
