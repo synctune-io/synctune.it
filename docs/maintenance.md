@@ -41,8 +41,10 @@ Publicly announced private projects may be named with an availability label.
 Do not turn those labels into download or signup links without a real release.
 Mark archives and partner projects accurately.
 
-Matteo's existing `mbianchi.dev` is linked, not rebuilt. The independent project
-websites use these intended destinations:
+Matteo's existing `mbianchi.dev` is linked, not rebuilt. Open Playlist and Open
+Playlist Engine belong to Synctune Music and must be listed in the Music
+directory group, not the general independent group. Denote and Moguri retain
+their independent identities. The project websites use these destinations:
 
 - Denote: `https://denote.synctune.it`
 - Open Playlist: `https://open-playlist.synctune.it`
