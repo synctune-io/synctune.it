@@ -371,13 +371,6 @@ p + p {
 .theme-gaming { --branch: var(--gaming); }
 .theme-finance { --branch: var(--finance); }
 
-.board-caption {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  margin-top: 16px;
-}
-
 .section {
   padding-block: clamp(56px, 7vw, 96px);
 }
@@ -609,8 +602,21 @@ input[type="search"] {
 }
 
 .project-title img {
-  flex: 0 0 48px;
-  width: 48px;
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  background: var(--ink);
+}
+
+.project-title.logo-wordmark {
+  align-items: start;
+  flex-direction: column;
+}
+
+.project-title.logo-wordmark img {
+  flex: none;
+  width: min(220px, 100%);
 }
 
 .project-card p:not(.meta) {
@@ -829,11 +835,6 @@ input[type="search"] {
 
   .route .arrow {
     right: 18px;
-  }
-
-  .board-caption {
-    flex-direction: column;
-    gap: 4px;
   }
 
   .featured-grid,

@@ -6,6 +6,9 @@
 and `about.html` covers the company, Matteo and privacy. Edit those files
 directly. `assets/styles.css` contains the layout and approved color tokens.
 
+Public copy should describe the missions and what the projects do. Do not
+explain each branch's focus, brand identity or website independence.
+
 The home headline is "An orchestra of independent ideas. In sync." Keep
 "In sync." on its own line. Its type scales to the hero column with CSS
 container units so the longer wording stays balanced on narrow screens.
@@ -92,8 +95,18 @@ not the Synctune branch symbols. The branch symbols still identify the branches.
   retained in `assets/projects/licenses/studio-duo-AGPL-3.0.txt`, alongside the
   editable SVG itself.
 
-Keep the original artwork, provenance and license notices when updating these
-assets. Neither logo loads external fonts, scripts or services.
+The catalog now uses 20 genuine project marks. Additional artwork and original
+notices are bundled in `assets/projects/` and recorded in
+`assets/projects/provenance.json`. The same original marks are copied into
+relevant branch repositories, never loaded from a sibling site's assets.
+
+Use a project's official mark in its catalog entry and showcase whenever one
+exists. Do not substitute branch symbols, stock Vite or Tauri icons, screenshots
+or unrelated artwork. Projects without a verified mark remain text-only.
+Preserve the original proportions, colors and notices; small marks use a 64px
+frame, while wide wordmarks have more room.
+
+The Gaming history entry briefly mentions Global Game Jam 2019 in Milan.
 
 ## Before publishing a change
 
