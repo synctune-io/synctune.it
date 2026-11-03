@@ -1,0 +1,188 @@
+[
+  {
+    "project": "ImgTools",
+    "asset": "assets/projects/img-tools.svg",
+    "sha256": "43fa561a58226b4d4562d12337127f112ada053296a5f554b59317bd8b80a569",
+    "license": "MIT",
+    "repo": "mbianchidev/img-tools",
+    "revision": "a37fe66b3a87f18fc83743d0ec8b7383a878cba9",
+    "source": "public/favicon.svg",
+    "notice": "assets/projects/licenses/img-tools-LICENSE.txt"
+  },
+  {
+    "project": "PDFTools",
+    "asset": "assets/projects/pdf-tools.svg",
+    "sha256": "202a0648b714d28a43227d44f54c1d1962dbc13d2c96f096b2c256a8a1cecff0",
+    "license": "MIT",
+    "repo": "mbianchidev/pdf-tools",
+    "revision": "b189b92a492b85d46058fdf94f3aed9b5df415e8",
+    "source": "frontend/public/favicon.svg",
+    "notice": "assets/projects/licenses/pdf-tools-LICENSE.txt"
+  },
+  {
+    "project": "Eisen Todo",
+    "asset": "assets/projects/eisen-todo.svg",
+    "sha256": "e969e60d4074a7ed3d0ef305e26e935a54a886c05f9ba1627b793c21581324df",
+    "license": "MIT",
+    "repo": "mbianchidev/eisen-todo",
+    "revision": "8780c235f7932d39f21591b975a900a79e96e6ef",
+    "source": "src/favicon.svg",
+    "notice": "assets/projects/licenses/eisen-todo-LICENSE.txt"
+  },
+  {
+    "project": "Track2Stem",
+    "asset": "assets/projects/track2stem.svg",
+    "sha256": "ca6bc17395b2badb6a45b6951272c2f65de37499dd97041517b2cf4328c3151f",
+    "license": "MIT",
+    "repo": "mbianchidev/track2stem",
+    "revision": "59a02ecfa05d4f9bf13acad43e67f5fa61e116ea",
+    "source": "frontend/public/favicon.svg",
+    "notice": "assets/projects/licenses/track2stem-LICENSE.txt"
+  },
+  {
+    "project": "AnyTrack Converter",
+    "asset": "assets/projects/anytrack-converter.svg",
+    "sha256": "421d813881105fad5934d4e429c85d48a9f2f702139165e2a95c9b88b7f566b7",
+    "license": "MIT",
+    "repo": "mbianchidev/anytrack-converter",
+    "revision": "c650a514cdaae04bcaba1cd4d579d290aef7f062",
+    "source": "frontend/public/favicon.svg",
+    "notice": "assets/projects/licenses/anytrack-converter-LICENSE.txt"
+  },
+  {
+    "project": "Engineering Interviews",
+    "asset": "assets/projects/engineering-interviews.svg",
+    "sha256": "b8e64466796bee1cf48b4728efd114260ba8503e5ca34462018e86f2f4995dd2",
+    "license": "AGPL-3.0",
+    "repo": "mbianchidev/engineering-interviews",
+    "revision": "fa090d456636cd2aac57f04e17a97ced4e48d392",
+    "source": "app/icon.svg",
+    "notice": "assets/projects/licenses/engineering-interviews-LICENSE.txt"
+  },
+  {
+    "project": "Platform Engineering Roadmap",
+    "asset": "assets/projects/platform-engineering-roadmap.svg",
+    "sha256": "5258b6505be02b20573091562f4dff43c4cf1c5b142d27b9b3bf0afaf30d1ffb",
+    "license": "MIT",
+    "repo": "mbianchidev/platform-engineering-roadmap",
+    "revision": "6a5441a57ba59faac28c4816ceb1f4ead5cfd893",
+    "source": "public/favicon.svg",
+    "notice": "assets/projects/licenses/platform-engineering-roadmap-LICENSE.txt"
+  },
+  {
+    "project": "Go, get a job!",
+    "asset": "assets/projects/go-get-a-job.svg",
+    "sha256": "1f4564d3906c1555fb3377c9cc7d87cae5cff691a8936ddda630dddbbcc4aeca",
+    "license": "AGPL-3.0",
+    "source": "Synctune project artwork used by request",
+    "notice": "assets/projects/licenses/go-get-a-job-LICENSE.txt"
+  },
+  {
+    "project": "2DnD",
+    "asset": "assets/projects/2dnd.svg",
+    "sha256": "fb28e4b9f9986b288bfd75f49b35891141d6d756f89e8cd5a58ef933f00f8a5e",
+    "license": "AGPL-3.0",
+    "repo": "mbianchidev/2dnd",
+    "revision": "ebd10f721c5521d658ecaa12678131a755c17b09",
+    "source": "public/favicon.svg",
+    "notice": "assets/projects/licenses/2dnd-LICENSE.txt"
+  },
+  {
+    "project": "Fiscal Fox",
+    "asset": "assets/projects/fiscal-fox.svg",
+    "sha256": "84324957182efab50d543b8e868d9e67c014f33c47d5bde3e6948445d2beba51",
+    "license": null,
+    "source": "Synctune project artwork used by request"
+  },
+  {
+    "project": "FIRE Tools",
+    "asset": "assets/projects/fire-tools.svg",
+    "sha256": "634bf7c1431ce028107e95d7e762934f0573ba4a648b913c3b2321af4eda8698",
+    "license": "MIT",
+    "repo": "fire-tools-inc/app",
+    "revision": "96806716832c4ce0caedcf355f8ce7c23af8c8e2",
+    "source": "electron/build/icon.svg",
+    "notice": "assets/projects/licenses/fire-tools-LICENSE.txt"
+  },
+  {
+    "project": "Open Playlist Engine",
+    "asset": "assets/projects/open-playlist-engine.svg",
+    "sha256": "36c9bf7ba0b0407db88ce757c392ba4e495446353884a4266ca9b610e8423599",
+    "license": "MIT",
+    "repo": "mbianchidev/open-playlist-engine",
+    "revision": "08bc1a0f8ba39e01fa7df1a71a66527d7b5da959",
+    "source": "docs/assets/mark.svg",
+    "notice": "assets/projects/licenses/open-playlist-engine-LICENSE.txt"
+  },
+  {
+    "project": "b143ck.music",
+    "asset": "assets/projects/b143ck.svg",
+    "sha256": "5f29944ab732a556a2ea3a707555cc1411b3ae3679f1ed1d9c4e925508074c23",
+    "license": "Unlicense",
+    "repo": "synctune-music/b143ck.music",
+    "revision": "e5482a731d61b9322a3b9bccb96ec77250f1d3a1",
+    "source": "src/assets/b143ck-mark.svg",
+    "notice": "assets/projects/licenses/b143ck-LICENSE.txt"
+  },
+  {
+    "project": "Matteo Bianchi",
+    "asset": "assets/projects/matteo.svg",
+    "sha256": "c2d2ab21259a0500b16e09514abb3aa69f1cca0ddca8d32b7403534afa33997c",
+    "license": "Unlicense",
+    "repo": "mbianchidev/mbianchi.dev",
+    "revision": "f6831809021e723bf8c21dceb2aa98c0019fe90d",
+    "source": "src/assets/brand/matteo-mark.svg",
+    "notice": "assets/projects/licenses/matteo-LICENSE.txt"
+  },
+  {
+    "project": "Open Playlist",
+    "asset": "assets/projects/open-playlist.svg",
+    "sha256": "0e519769a8151103abcce8017826501ac36607adcfd4830d8d936450637b87f2",
+    "license": "Brand artwork",
+    "revision": "55764ef",
+    "source": "brands/open-playlist/svg/symbol/brand-on-dark.svg"
+  },
+  {
+    "project": "Moguri",
+    "asset": "assets/projects/moguri.svg",
+    "sha256": "54f6c595248ca2a90302b38fb12d01b626374442eb9de8fd85cd0208b319538e",
+    "license": "Brand artwork",
+    "revision": "55764ef",
+    "source": "brands/moguri-dev/svg/symbol/brand-on-dark.svg"
+  },
+  {
+    "project": "Devoid of Beauty",
+    "asset": "assets/projects/devoid-of-beauty.avif",
+    "sha256": "985ac3aa6e4a3e48a39f50e0203d4e07eca87141baf0316d378333eebeb16155",
+    "license": "Artist mark",
+    "source_url": "https://www.devoidofbeauty.com/images/devoid-of-beauty-logo-light-2000.avif"
+  },
+  {
+    "project": "Porto",
+    "asset": "assets/projects/porto.png",
+    "sha256": "27f8837df9359170316cc1f75129c4ff4fdc9e106247192ee319eb79ec8ddf79",
+    "license": "MIT",
+    "repo": "mbianchidev/porto",
+    "revision": "22cf0b37e54aa3866cec50f311c6552fbe19dfba",
+    "source": "ui/electron/assets/porto.png",
+    "notice": "assets/projects/licenses/porto-MIT.txt"
+  },
+  {
+    "project": "Studio Duo",
+    "asset": "assets/projects/studio-duo.svg",
+    "sha256": "94c810802b38a5df1514e7f981165c8003e0cee5d9ae4b2eea32adec924db2fb",
+    "license": "AGPL-3.0",
+    "repo": "mbianchidev/studio-duo",
+    "revision": "bf853019806303eaadd1c179dca4c1fa8bc49286",
+    "source": "assets/branding/studio-duo-icon.svg",
+    "notice": "assets/projects/licenses/studio-duo-AGPL-3.0.txt"
+  },
+  {
+    "project": "Denote",
+    "asset": "assets/denote.svg",
+    "sha256": "cc1c294bdedf43319bd3dc9db46a8ab02f004f7bd02050d2afd000283b2a9703",
+    "license": "Approved identity artwork",
+    "source": "brands/denote-io/svg/symbol/brand-on-dark.svg",
+    "revision": "55764ef"
+  }
+]
