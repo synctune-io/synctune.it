@@ -27,7 +27,15 @@ Keep the matching branch site's entry in sync.
 
 The initial catalog comes from the public profiles of `synctune-io`,
 `synctune-open`, `synctune-music`, `synctune-edu`, `synctune-customers`,
-`synctune-gaming`, `synctune-finance`, and `mbianchidev`.
+`synctune-gaming`, `synctune-finance`, `open-sales-engineering`, and `mbianchidev`.
+
+[Open Sales Engineering](https://github.com/open-sales-engineering) is the
+seventh branch, at `https://open-sales-engineering.synctune.it`. Keep its
+home-page route, company-page link, directory filter/group and footer entry in
+sync. Its public organization profile introduces Open Field Engineer, a
+provider-neutral workbench for pre-sales and post-sales. The source is currently
+private: link to the project section on the branch website, not a private
+repository or documentation URL. This repository does not rebuild that site.
 
 Organization profiles contain planned transfer destinations. Public source
 links deliberately use the verified current repositories, often under
@@ -61,7 +69,8 @@ describe it as a Synctune branch.
 
 ## Brand source and rights
 
-Synctune family artwork and unmodified fonts come from the approved collection in
+The company mark, original six branch marks and unmodified fonts come from the
+approved collection in
 [synctune-io/branding](https://github.com/synctune-io/branding),
 snapshot `55764ef`.
 
@@ -69,6 +78,11 @@ Use the approved outlined SVGs, retain their padding and proportions, and do
 not rotate, stretch, shadow or recolor the marks. Synctune's primary accent is
 `#D6F55A`, with ink `#111214` and paper `#F5F2E9`. Branch accents and symbols
 stay paired; never identify a branch by color alone.
+
+Open Sales Engineering uses its existing forest-green monogram on sunflower
+yellow (`#F2C94C`), bundled in `assets/branches/open-sales-engineering.svg`.
+Keep its colors and proportions unchanged. It comes from the existing branch
+website, not the original six-mark identity snapshot.
 
 Bricolage Grotesque is the display face, Work Sans is the body face, and DM Mono
 is used for metadata. The original font files and SIL Open Font License notices
@@ -95,10 +109,16 @@ not the Synctune branch symbols. The branch symbols still identify the branches.
   retained in `assets/projects/licenses/studio-duo-AGPL-3.0.txt`, alongside the
   editable SVG itself.
 
-The catalog now uses 20 genuine project marks. Additional artwork and original
+The catalog now uses 21 genuine project marks. Additional artwork and original
 notices are bundled in `assets/projects/` and recorded in
 `assets/projects/provenance.json`. The same original marks are copied into
 relevant branch repositories, never loaded from a sibling site's assets.
+
+Open Field Engineer uses its original sunflower, copied unmodified from the
+existing branch website. Its MIT notice is retained in
+`assets/projects/licenses/open-field-engineer-MIT.txt`. The branch monogram and
+project sunflower have separate checksums in `assets/projects/provenance.json`.
+Public provenance omits private repository locations.
 
 Use a project's official mark in its catalog entry and showcase whenever one
 exists. Do not substitute branch symbols, stock Vite or Tauri icons, screenshots

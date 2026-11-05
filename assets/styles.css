@@ -41,6 +41,7 @@
   --consulting: #FFB153;
   --gaming: #EB79F4;
   --finance: #7CE5B5;
+  --sales-engineering: #F2C94C;
   --rule: rgb(245 242 233 / 23%);
   --measure: 1280px;
   --gutter: clamp(20px, 5vw, 80px);
@@ -365,12 +366,35 @@ p + p {
   box-shadow: inset 0 0 0 2px var(--branch, var(--signal));
 }
 
+.route.route-wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: center;
+  min-height: 132px;
+  padding: 18px 60px 18px 18px;
+}
+
+.route.route-wide img {
+  margin-left: 0;
+}
+
+.route.route-wide strong {
+  font-size: clamp(1.125rem, 4vw, 1.5rem);
+}
+
+.route.route-wide .arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .theme-music { --branch: var(--music); }
 .theme-open { --branch: var(--open); }
 .theme-edu { --branch: var(--edu); }
 .theme-consulting { --branch: var(--consulting); }
 .theme-gaming { --branch: var(--gaming); }
 .theme-finance { --branch: var(--finance); }
+.theme-sales-engineering { --branch: var(--sales-engineering); }
 
 .section {
   padding-block: clamp(56px, 7vw, 96px);
@@ -479,6 +503,10 @@ p + p {
 
 .branch-list span:not(.arrow) {
   flex: 1;
+}
+
+.branch-list .branch-wide {
+  grid-column: 1 / -1;
 }
 
 .page-intro {

@@ -1,5 +1,22 @@
 [
   {
+    "project": "Open Sales Engineering",
+    "asset": "assets/branches/open-sales-engineering.svg",
+    "sha256": "c6d5f55db559fdaa40e7b7a34fe379ce7d6eda754dc3278a655dd2250dd8f519",
+    "license": null,
+    "source": "Open Sales Engineering identity used by request",
+    "website": "https://open-sales-engineering.synctune.it"
+  },
+  {
+    "project": "Open Field Engineer",
+    "asset": "assets/projects/open-field-engineer.svg",
+    "sha256": "e7cacff7854a56c8e2765ef0ffa491e4e556a8c5d8fb717f86754d8edcc832c3",
+    "license": "MIT",
+    "source": "Open Sales Engineering website project artwork used by request",
+    "website": "https://open-sales-engineering.synctune.it#open-field-engineer",
+    "notice": "assets/projects/licenses/open-field-engineer-MIT.txt"
+  },
+  {
     "project": "ImgTools",
     "asset": "assets/projects/img-tools.svg",
     "sha256": "43fa561a58226b4d4562d12337127f112ada053296a5f554b59317bd8b80a569",
