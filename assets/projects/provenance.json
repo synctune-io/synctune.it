@@ -284,5 +284,31 @@
     "revision": "bd7bb6f720e90ecd5ca8bb7f78769841d3427060",
     "source": "frontend/brand/app-icon.svg",
     "notice": "assets/projects/licenses/every-music-LICENSE.txt"
+  },
+  {
+    "project": "Shipwatch",
+    "asset": "assets/projects/shipwatch.png",
+    "sha256": "5c4cf5c226e948ea3fc727b3e5024c91de8577ead7732319e4ae162f7657c94d",
+    "license": "MIT",
+    "repo": "mbianchidev/shipwatch",
+    "revision": "426496b10a0fa6961b3ccb58879fc3913a326263",
+    "source": "docs/logo.png",
+    "notice": "assets/projects/licenses/shipwatch-LICENSE.txt"
+  },
+  {
+    "project": "Dungeons n Scrolls",
+    "asset": "assets/projects/dungeons-n-scrolls.svg",
+    "sha256": "a9debe826d2e6afe82d3d9d2ab1482a1f4d54dce2c93ce7321bdf907a87c1002",
+    "license": null,
+    "repo": "synctune-gaming/dungeons-n-scrolls",
+    "revision": "9f4dce00ab773e1fcd645ae8d5a5652b2f1c284a",
+    "source": "public/favicon.svg"
+  },
+  {
+    "project": "Eidar the Miner",
+    "asset": "assets/projects/eidar-the-miner.svg",
+    "sha256": "61e6d63bce097b4391f8dc2d3fd2a4d25800bd7177f5bbd0265221b6795af820",
+    "license": null,
+    "source": "Eidar the Miner game favicon (private repository)"
   }
 ]
