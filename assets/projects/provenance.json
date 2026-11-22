@@ -310,5 +310,25 @@
     "sha256": "61e6d63bce097b4391f8dc2d3fd2a4d25800bd7177f5bbd0265221b6795af820",
     "license": null,
     "source": "Eidar the Miner game favicon (private repository)"
+  },
+  {
+    "project": "SQL not-so-lite",
+    "asset": "assets/projects/sql-not-so-lite.svg",
+    "sha256": "50cd380e8bb62470c8738eb58ae3c5d140bfaa9deb8e85a85a77455f723d46f9",
+    "license": "MIT",
+    "repo": "mbianchidev/sql-not-so-lite",
+    "revision": "66e2c1e563bb14fd50ddf558dc44a04c3d0d6539",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/sql-not-so-lite-LICENSE.txt"
+  },
+  {
+    "project": "SendBox Fleet",
+    "asset": "assets/projects/sendbox-fleet.svg",
+    "sha256": "4db0b676fce9ae5a39ee23d3bf39059951796948642d1707b7cd404b854673c5",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/sendbox-fleet",
+    "revision": "1a3636da43d9122cee1f6e3a9dc8e2bba28063fe",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/sendbox-fleet-LICENSE.txt"
   }
 ]
