@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Scream Forge">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#14161B"/>
+  <path d="M11 22h7l3.5-8 4.5 15 4.5-19 4.5 16 3.5-10 3 6h11" fill="none" stroke="#FF5A36" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9 35h13v-2h31v6l-6 3.5h-4V46l5 5H21l5-5v-3.5h-4C15 42.5 11 39.5 9 35Z" fill="#F5F7F8"/>
+</svg>

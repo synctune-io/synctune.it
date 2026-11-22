@@ -249,5 +249,40 @@
     "revision": "662b693fdfd13347e2f385ed2814f5eb4dc5459b",
     "source": "docs/assets/logo.svg",
     "notice": "assets/projects/licenses/latex-editor-LICENSE.txt"
+  },
+  {
+    "project": "Scream Forge",
+    "asset": "assets/projects/scream-forge.svg",
+    "sha256": "9ce5ff829fdb1eeb69d0918789bd0eacaba17828e67a0a9ea2626751244129e8",
+    "license": null,
+    "source": "Scream Forge project logo (private repository)"
+  },
+  {
+    "project": "yt2karaoke",
+    "asset": "assets/projects/yt2karaoke.svg",
+    "sha256": "86b2894eb2033b7df14745b6f079422274118408e8418108e2f1efd851c21007",
+    "license": "MIT",
+    "source": "yt2karaoke player favicon (private repository)",
+    "notice": "assets/projects/licenses/yt2karaoke-LICENSE.txt"
+  },
+  {
+    "project": "Find Concerts",
+    "asset": "assets/projects/find-concerts.svg",
+    "sha256": "029f8fbe4d7bfbe17fcc2d8ab33f491a2e5fd1cc1133e5552f69dcbfd9043b99",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/find-concerts-io",
+    "revision": "144cc71342fc7cb4859ebe14e5b5b40416cf7bb5",
+    "source": "public/mark.svg",
+    "notice": "assets/projects/licenses/find-concerts-LICENSE.txt"
+  },
+  {
+    "project": "Every Music",
+    "asset": "assets/projects/every-music.svg",
+    "sha256": "af0cbf360d70e8ead39287e0be0c2fb2b798e11dda71c6cff1c1bbe59a11f52f",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/every-music",
+    "revision": "ccd739119f0daf893c1b330306daa85685d450f8",
+    "source": "frontend/brand/app-icon.svg",
+    "notice": "assets/projects/licenses/every-music-LICENSE.txt"
   }
 ]
