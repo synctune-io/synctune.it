@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="etcqlite">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#14161B"/>
+  <path d="M11 16v23c0 3.3 6 6 13 6s13-2.7 13-6V16" fill="#1F2430"/>
+  <ellipse cx="24" cy="16" rx="13" ry="5.5" fill="#FBBF24"/>
+  <path d="M11 16v23c0 3.3 6 6 13 6s13-2.7 13-6V16M11 27.5c0 3.3 6 6 13 6s13-2.7 13-6" fill="none" stroke="#F5F7F8" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="24" cy="16" rx="13" ry="5.5" fill="none" stroke="#F5F7F8" stroke-width="3"/>
+  <circle cx="45" cy="44" r="13" fill="#14161B"/>
+  <path d="M45 34.5 53.5 49.5H36.5Z" fill="none" stroke="#FBBF24" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#FBBF24"><circle cx="45" cy="34.5" r="4.5"/><circle cx="53.5" cy="49.5" r="4.5"/><circle cx="36.5" cy="49.5" r="4.5"/></g>
+</svg>

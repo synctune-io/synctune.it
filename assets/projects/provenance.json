@@ -49,20 +49,20 @@
   {
     "project": "Track2Stem",
     "asset": "assets/projects/track2stem.svg",
-    "sha256": "ca6bc17395b2badb6a45b6951272c2f65de37499dd97041517b2cf4328c3151f",
+    "sha256": "a9497a3929f71bf8911901a28e9ab2b558d605fe4e60b3cd3a230c0bc0a4e0df",
     "license": "MIT",
     "repo": "mbianchidev/track2stem",
-    "revision": "59a02ecfa05d4f9bf13acad43e67f5fa61e116ea",
+    "revision": "3f7019375f8ae6566965c8d66fd6807acb25cf4a",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/track2stem-LICENSE.txt"
   },
   {
     "project": "AnyTrack Converter",
     "asset": "assets/projects/anytrack-converter.svg",
-    "sha256": "421d813881105fad5934d4e429c85d48a9f2f702139165e2a95c9b88b7f566b7",
+    "sha256": "af7c922e57dcc55a4b87e570382c11d7ecb858c9e87e0c506d8df1a1ed0ddd6c",
     "license": "MIT",
     "repo": "mbianchidev/anytrack-converter",
-    "revision": "c650a514cdaae04bcaba1cd4d579d290aef7f062",
+    "revision": "96e5367692a75c135a292e181eb22bd8dd836ab5",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/anytrack-converter-LICENSE.txt"
   },
@@ -107,9 +107,9 @@
   {
     "project": "Fiscal Fox",
     "asset": "assets/projects/fiscal-fox.svg",
-    "sha256": "84324957182efab50d543b8e868d9e67c014f33c47d5bde3e6948445d2beba51",
+    "sha256": "79f95c64134cf5015568f16136a8c8e6b3b74632bfbc426f3d91a738fdf9728a",
     "license": null,
-    "source": "Synctune project artwork used by request"
+    "source": "Fiscal Fox web app favicon (private repository)"
   },
   {
     "project": "FIRE Tools",
@@ -201,5 +201,88 @@
     "license": "Approved identity artwork",
     "source": "brands/denote-io/svg/symbol/brand-on-dark.svg",
     "revision": "55764ef"
+  },
+  {
+    "project": "SendBox",
+    "asset": "assets/projects/sendbox.svg",
+    "sha256": "2c28d4dc333797682f8b526f494e7ac29ac286f6b876d4b150b1ba30ccee0d41",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/sendbox",
+    "revision": "d3a7e62d7f56c40dc527ec919af3cecc02c50945",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/sendbox-LICENSE.txt"
+  },
+  {
+    "project": "etcqlite",
+    "asset": "assets/projects/etcqlite.svg",
+    "sha256": "9e82859e28e710e16348f6631312cd26d05ced03786fcfcf0428473fb665542f",
+    "license": "MIT",
+    "source": "etcqlite project logo (private repository)",
+    "notice": "assets/projects/licenses/etcqlite-LICENSE.txt"
+  },
+  {
+    "project": "KillSwitch",
+    "asset": "assets/projects/kill-switch.png",
+    "sha256": "ade0d8caa4888853e7a8b65cb04353b18a5cfd69127cdbaba1ba78799b797a77",
+    "license": "MIT",
+    "repo": "mbianchidev/kill-switch",
+    "revision": "9fd6ef565b87a49c7d8d7f74470d279d4164d53d",
+    "source": "icon_128x128@2x.png rendered by scripts/make-app-icon.swift",
+    "notice": "assets/projects/licenses/kill-switch-LICENSE.txt"
+  },
+  {
+    "project": "Stainless",
+    "asset": "assets/projects/stainless.png",
+    "sha256": "10629ecd1024494a47163f3a585c1481fbecdd6cfc1f6931bdbcce06caff99af",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/stainless",
+    "revision": "400428fccce36ee7013da64744cd290001a78b09",
+    "source": "chromium/branding/stainless-icon.png, resized from 1024 to 256 px",
+    "notice": "assets/projects/licenses/stainless-LICENSE.txt"
+  },
+  {
+    "project": "LaTeX Editor",
+    "asset": "assets/projects/latex-editor.svg",
+    "sha256": "9f67664826ac8c03658c1c7eccf195775b25616e4f7bd739c92fcdc978bc7457",
+    "license": "MIT",
+    "repo": "mbianchidev/latex-editor",
+    "revision": "662b693fdfd13347e2f385ed2814f5eb4dc5459b",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/latex-editor-LICENSE.txt"
+  },
+  {
+    "project": "Scream Forge",
+    "asset": "assets/projects/scream-forge.svg",
+    "sha256": "9ce5ff829fdb1eeb69d0918789bd0eacaba17828e67a0a9ea2626751244129e8",
+    "license": null,
+    "source": "Scream Forge project logo (private repository)"
+  },
+  {
+    "project": "yt2karaoke",
+    "asset": "assets/projects/yt2karaoke.svg",
+    "sha256": "2eb9eb8fc52d9aea715be4534adf8aac2ae582a3aacf52aa53bf6cdcdb0bcbaa",
+    "license": "MIT",
+    "source": "yt2karaoke player favicon (private repository)",
+    "notice": "assets/projects/licenses/yt2karaoke-LICENSE.txt"
+  },
+  {
+    "project": "Find Concerts",
+    "asset": "assets/projects/find-concerts.svg",
+    "sha256": "029f8fbe4d7bfbe17fcc2d8ab33f491a2e5fd1cc1133e5552f69dcbfd9043b99",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/find-concerts-io",
+    "revision": "144cc71342fc7cb4859ebe14e5b5b40416cf7bb5",
+    "source": "public/mark.svg",
+    "notice": "assets/projects/licenses/find-concerts-LICENSE.txt"
+  },
+  {
+    "project": "Every Music",
+    "asset": "assets/projects/every-music.svg",
+    "sha256": "d153905d41c24e59f81f6b8c66927a097ee8acfdff747f2733adc93cce665e39",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/every-music",
+    "revision": "bd7bb6f720e90ecd5ca8bb7f78769841d3427060",
+    "source": "frontend/brand/app-icon.svg",
+    "notice": "assets/projects/licenses/every-music-LICENSE.txt"
   }
 ]

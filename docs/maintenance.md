@@ -109,7 +109,7 @@ not the Synctune branch symbols. The branch symbols still identify the branches.
   retained in `assets/projects/licenses/studio-duo-AGPL-3.0.txt`, alongside the
   editable SVG itself.
 
-The catalog now uses 21 genuine project marks. Additional artwork and original
+The catalog now uses 30 genuine project marks. Additional artwork and original
 notices are bundled in `assets/projects/` and recorded in
 `assets/projects/provenance.json`. The same original marks are copied into
 relevant branch repositories, never loaded from a sibling site's assets.
