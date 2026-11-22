@@ -201,5 +201,53 @@
     "license": "Approved identity artwork",
     "source": "brands/denote-io/svg/symbol/brand-on-dark.svg",
     "revision": "55764ef"
+  },
+  {
+    "project": "SendBox",
+    "asset": "assets/projects/sendbox.svg",
+    "sha256": "2c28d4dc333797682f8b526f494e7ac29ac286f6b876d4b150b1ba30ccee0d41",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/sendbox",
+    "revision": "d3a7e62d7f56c40dc527ec919af3cecc02c50945",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/sendbox-LICENSE.txt"
+  },
+  {
+    "project": "etcqlite",
+    "asset": "assets/projects/etcqlite.svg",
+    "sha256": "9e82859e28e710e16348f6631312cd26d05ced03786fcfcf0428473fb665542f",
+    "license": "MIT",
+    "source": "etcqlite project logo (private repository)",
+    "notice": "assets/projects/licenses/etcqlite-LICENSE.txt"
+  },
+  {
+    "project": "KillSwitch",
+    "asset": "assets/projects/kill-switch.png",
+    "sha256": "ade0d8caa4888853e7a8b65cb04353b18a5cfd69127cdbaba1ba78799b797a77",
+    "license": "MIT",
+    "repo": "mbianchidev/kill-switch",
+    "revision": "9fd6ef565b87a49c7d8d7f74470d279d4164d53d",
+    "source": "icon_128x128@2x.png rendered by scripts/make-app-icon.swift",
+    "notice": "assets/projects/licenses/kill-switch-LICENSE.txt"
+  },
+  {
+    "project": "Stainless",
+    "asset": "assets/projects/stainless.png",
+    "sha256": "10629ecd1024494a47163f3a585c1481fbecdd6cfc1f6931bdbcce06caff99af",
+    "license": "Apache-2.0",
+    "repo": "mbianchidev/stainless",
+    "revision": "400428fccce36ee7013da64744cd290001a78b09",
+    "source": "chromium/branding/stainless-icon.png, resized from 1024 to 256 px",
+    "notice": "assets/projects/licenses/stainless-LICENSE.txt"
+  },
+  {
+    "project": "LaTeX Editor",
+    "asset": "assets/projects/latex-editor.svg",
+    "sha256": "9f67664826ac8c03658c1c7eccf195775b25616e4f7bd739c92fcdc978bc7457",
+    "license": "MIT",
+    "repo": "mbianchidev/latex-editor",
+    "revision": "662b693fdfd13347e2f385ed2814f5eb4dc5459b",
+    "source": "docs/assets/logo.svg",
+    "notice": "assets/projects/licenses/latex-editor-LICENSE.txt"
   }
 ]
