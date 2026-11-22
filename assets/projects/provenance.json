@@ -49,20 +49,20 @@
   {
     "project": "Track2Stem",
     "asset": "assets/projects/track2stem.svg",
-    "sha256": "ca6bc17395b2badb6a45b6951272c2f65de37499dd97041517b2cf4328c3151f",
+    "sha256": "a9497a3929f71bf8911901a28e9ab2b558d605fe4e60b3cd3a230c0bc0a4e0df",
     "license": "MIT",
     "repo": "mbianchidev/track2stem",
-    "revision": "59a02ecfa05d4f9bf13acad43e67f5fa61e116ea",
+    "revision": "3f7019375f8ae6566965c8d66fd6807acb25cf4a",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/track2stem-LICENSE.txt"
   },
   {
     "project": "AnyTrack Converter",
     "asset": "assets/projects/anytrack-converter.svg",
-    "sha256": "421d813881105fad5934d4e429c85d48a9f2f702139165e2a95c9b88b7f566b7",
+    "sha256": "af7c922e57dcc55a4b87e570382c11d7ecb858c9e87e0c506d8df1a1ed0ddd6c",
     "license": "MIT",
     "repo": "mbianchidev/anytrack-converter",
-    "revision": "c650a514cdaae04bcaba1cd4d579d290aef7f062",
+    "revision": "96e5367692a75c135a292e181eb22bd8dd836ab5",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/anytrack-converter-LICENSE.txt"
   },
@@ -260,7 +260,7 @@
   {
     "project": "yt2karaoke",
     "asset": "assets/projects/yt2karaoke.svg",
-    "sha256": "86b2894eb2033b7df14745b6f079422274118408e8418108e2f1efd851c21007",
+    "sha256": "2eb9eb8fc52d9aea715be4534adf8aac2ae582a3aacf52aa53bf6cdcdb0bcbaa",
     "license": "MIT",
     "source": "yt2karaoke player favicon (private repository)",
     "notice": "assets/projects/licenses/yt2karaoke-LICENSE.txt"
@@ -278,10 +278,10 @@
   {
     "project": "Every Music",
     "asset": "assets/projects/every-music.svg",
-    "sha256": "af0cbf360d70e8ead39287e0be0c2fb2b798e11dda71c6cff1c1bbe59a11f52f",
+    "sha256": "d153905d41c24e59f81f6b8c66927a097ee8acfdff747f2733adc93cce665e39",
     "license": "Apache-2.0",
     "repo": "mbianchidev/every-music",
-    "revision": "ccd739119f0daf893c1b330306daa85685d450f8",
+    "revision": "bd7bb6f720e90ecd5ca8bb7f78769841d3427060",
     "source": "frontend/brand/app-icon.svg",
     "notice": "assets/projects/licenses/every-music-LICENSE.txt"
   }

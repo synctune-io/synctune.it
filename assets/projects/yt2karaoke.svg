@@ -1,9 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="12" fill="#6b50d8"/>
-  <g fill="#fff">
-    <rect x="10" y="15" width="3" height="10" rx="1.5"/>
-    <rect x="16" y="9" width="3" height="22" rx="1.5"/>
-    <rect x="22" y="12" width="3" height="16" rx="1.5"/>
-    <rect x="28" y="16" width="3" height="8" rx="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="yt2karaoke">
+  <defs>
+    <linearGradient id="yk-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF5C7A"/><stop offset="1" stop-color="#C2185B"/></linearGradient>
+    <clipPath id="yk-head"><circle cx="29" cy="24" r="10.5"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#yk-bg)"/>
+  <g transform="rotate(-35 29 34)">
+    <rect x="25" y="36" width="8" height="20" rx="4" fill="#FFF4F7"/>
+    <rect x="23.5" y="32.5" width="11" height="5" rx="2" fill="#7A1236"/>
+    <circle cx="29" cy="24" r="10.5" fill="#FFF4F7"/>
+    <g clip-path="url(#yk-head)" stroke="#F2A7BE" stroke-width="1.5"><path d="M17 20h24M17 24h24M17 28h24M25 12v24M29 12v24M33 12v24"/></g>
+  </g>
+  <g fill="#FFF4F7">
+    <ellipse cx="45.2" cy="27" rx="3.8" ry="2.9" transform="rotate(-22 45.2 27)"/>
+    <rect x="47.4" y="12" width="2.3" height="15"/>
+    <path d="M49.7 12c0 3 4.6 3.6 4.6 7.6-1.1-2-2.7-2.8-4.6-3.1z"/>
   </g>
 </svg>

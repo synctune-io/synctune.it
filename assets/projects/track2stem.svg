@@ -1,21 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea"/>
-      <stop offset="100%" style="stop-color:#764ba2"/>
-    </linearGradient>
-  </defs>
-  <!-- Background circle -->
-  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
-  <!-- Music note / stem visualization -->
-  <g fill="white">
-    <!-- Main stem bars representing audio separation -->
-    <rect x="14" y="28" width="4" height="20" rx="2"/>
-    <rect x="22" y="18" width="4" height="30" rx="2"/>
-    <rect x="30" y="24" width="4" height="24" rx="2"/>
-    <rect x="38" y="16" width="4" height="32" rx="2"/>
-    <rect x="46" y="22" width="4" height="26" rx="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Track2stem">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#f28c38"/>
+  <path d="M9 32h2.5l2-8 3 16 3-11 2 6 1.5-3H25" fill="none" stroke="#15171a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke="#15171a" stroke-width="3" stroke-linecap="round">
+    <path d="M25 32c7 0 7-17 14-17"/>
+    <path d="M25 32c7 0 7-6 14-6"/>
+    <path d="M25 32c7 0 7 6 14 6"/>
+    <path d="M25 32c7 0 7 17 14 17"/>
   </g>
-  <!-- Arrow indicating separation -->
-  <path d="M32 10 L38 16 L35 16 L35 14 L29 14 L29 16 L26 16 Z" fill="white" opacity="0.8"/>
+  <g fill="none" stroke="#15171a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M39 15h3l1.5-3 2 6 2-6 2 6 1.5-3H55"/>
+    <path d="M39 26h4l2-4 3 8 2-4H55"/>
+    <path d="M39 38h3l1.5-2.5 1.5 2.5 1.5-2.5 1.5 2.5 1.5-2.5 1.5 2.5 1.5-2.5 1.5 2.5H55"/>
+    <path d="M39 49h5l3-5 3 5H55"/>
+  </g>
 </svg>
