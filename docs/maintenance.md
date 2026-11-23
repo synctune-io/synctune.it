@@ -20,7 +20,9 @@ or analytics.
 
 When adding a directory entry, put `data-project` on its article inside the
 appropriate `data-project-group` section. Keep its description, availability
-and destination in the HTML. The result count is calculated from those cards.
+and destination in the HTML. When a project has a working live app, demo or
+website, link it first and the source second, both inside a
+`<div class="card-links">`. Mark archived repositories with the Archive label. The result count is calculated from those cards.
 Keep the matching branch site's entry in sync.
 
 ## Project locations and privacy
@@ -109,7 +111,7 @@ not the Synctune branch symbols. The branch symbols still identify the branches.
   retained in `assets/projects/licenses/studio-duo-AGPL-3.0.txt`, alongside the
   editable SVG itself.
 
-The catalog now uses 30 genuine project marks. Additional artwork and original
+The catalog now uses 35 genuine project marks. Additional artwork and original
 notices are bundled in `assets/projects/` and recorded in
 `assets/projects/provenance.json`. The same original marks are copied into
 relevant branch repositories, never loaded from a sibling site's assets.

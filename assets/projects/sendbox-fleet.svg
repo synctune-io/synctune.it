@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SendBox Fleet">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#14161B"/>
+  <g stroke="#F5F7F8" stroke-width="2.25" stroke-linejoin="round">
+    <path d="M20 12 32 18 20 24 8 18Z" fill="#1F7A5A"/>
+    <path d="M8 18V32L20 38V24Z" fill="#1F2A2E"/>
+    <path d="M32 18V32L20 38V24Z" fill="#253238"/>
+    <path d="M44 12 56 18 44 24 32 18Z" fill="#1F7A5A"/>
+    <path d="M32 18V32L44 38V24Z" fill="#1F2A2E"/>
+    <path d="M56 18V32L44 38V24Z" fill="#253238"/>
+    <path d="M32 26 44 32 32 38 20 32Z" fill="#34D399"/>
+    <path d="M20 32V46L32 52V38Z" fill="#1F2A2E"/>
+    <path d="M44 32V46L32 52V38Z" fill="#253238"/>
+  </g>
+  <path d="m35 41.5 3.5 2.7-3.5 4.3" fill="none" stroke="#34D399" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
