@@ -49,20 +49,20 @@
   {
     "project": "Track2Stem",
     "asset": "assets/projects/track2stem.svg",
-    "sha256": "a9497a3929f71bf8911901a28e9ab2b558d605fe4e60b3cd3a230c0bc0a4e0df",
+    "sha256": "39999afb63162719a06f13c6e116d798bceb2eabe8e67ddc9a297e90b851adfd",
     "license": "MIT",
     "repo": "mbianchidev/track2stem",
-    "revision": "3f7019375f8ae6566965c8d66fd6807acb25cf4a",
+    "revision": "f9e41f8e9ca63324c5698d88a9e1c809acb72753",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/track2stem-LICENSE.txt"
   },
   {
     "project": "AnyTrack Converter",
     "asset": "assets/projects/anytrack-converter.svg",
-    "sha256": "af7c922e57dcc55a4b87e570382c11d7ecb858c9e87e0c506d8df1a1ed0ddd6c",
+    "sha256": "45cac8e6d8e559b9f6ce660e569038dd67884e301a70a7327a690fe160a8b94d",
     "license": "MIT",
     "repo": "mbianchidev/anytrack-converter",
-    "revision": "96e5367692a75c135a292e181eb22bd8dd836ab5",
+    "revision": "0dbc28c87d1e450e9df56a73dd0b64191466e18a",
     "source": "frontend/public/favicon.svg",
     "notice": "assets/projects/licenses/anytrack-converter-LICENSE.txt"
   },
@@ -162,10 +162,12 @@
   {
     "project": "Moguri",
     "asset": "assets/projects/moguri.svg",
-    "sha256": "54f6c595248ca2a90302b38fb12d01b626374442eb9de8fd85cd0208b319538e",
-    "license": "Brand artwork",
-    "revision": "55764ef",
-    "source": "brands/moguri-dev/svg/symbol/brand-on-dark.svg"
+    "sha256": "0394d964adc1e3bfe88e2784b2a32ea63ff7293b221c12e7e2f8f884e83d96c8",
+    "license": "MIT",
+    "repo": "moguri-dev/moguri",
+    "revision": "3819075aa8d267ff250ce76740084414cd6f1466",
+    "source": "assets/moguri.svg",
+    "notice": "assets/projects/licenses/moguri-LICENSE.txt"
   },
   {
     "project": "Devoid of Beauty",
@@ -176,12 +178,12 @@
   },
   {
     "project": "Porto",
-    "asset": "assets/projects/porto.png",
-    "sha256": "27f8837df9359170316cc1f75129c4ff4fdc9e106247192ee319eb79ec8ddf79",
+    "asset": "assets/projects/porto.svg",
+    "sha256": "7ba6acd9fc14e06a203f59d7a34b17dea24f0bdf070b5598da4e4c277e691cad",
     "license": "MIT",
-    "repo": "mbianchidev/porto",
-    "revision": "22cf0b37e54aa3866cec50f311c6552fbe19dfba",
-    "source": "ui/electron/assets/porto.png",
+    "repo": "porto-containers/porto",
+    "revision": "4b9dbdb0501c2d515c524108dde04d7c98f30c2c",
+    "source": "ui/public/favicon.svg",
     "notice": "assets/projects/licenses/porto-MIT.txt"
   },
   {
@@ -207,7 +209,7 @@
     "asset": "assets/projects/sendbox.svg",
     "sha256": "2c28d4dc333797682f8b526f494e7ac29ac286f6b876d4b150b1ba30ccee0d41",
     "license": "Apache-2.0",
-    "repo": "mbianchidev/sendbox",
+    "repo": "sendbox-dev/sendbox",
     "revision": "d3a7e62d7f56c40dc527ec919af3cecc02c50945",
     "source": "docs/assets/logo.svg",
     "notice": "assets/projects/licenses/sendbox-LICENSE.txt"
@@ -235,7 +237,7 @@
     "asset": "assets/projects/stainless.png",
     "sha256": "10629ecd1024494a47163f3a585c1481fbecdd6cfc1f6931bdbcce06caff99af",
     "license": "Apache-2.0",
-    "repo": "mbianchidev/stainless",
+    "repo": "stainless-browser/stainless",
     "revision": "400428fccce36ee7013da64744cd290001a78b09",
     "source": "chromium/branding/stainless-icon.png, resized from 1024 to 256 px",
     "notice": "assets/projects/licenses/stainless-LICENSE.txt"
@@ -262,7 +264,9 @@
     "asset": "assets/projects/yt2karaoke.svg",
     "sha256": "2eb9eb8fc52d9aea715be4534adf8aac2ae582a3aacf52aa53bf6cdcdb0bcbaa",
     "license": "MIT",
-    "source": "yt2karaoke player favicon (private repository)",
+    "repo": "mbianchidev/yt2karaoke",
+    "revision": "5fe91dd2a264f67ea57359be22b9199ee5ab886c",
+    "source": "src/yt2karaoke/player/static/favicon.svg",
     "notice": "assets/projects/licenses/yt2karaoke-LICENSE.txt"
   },
   {
@@ -278,10 +282,10 @@
   {
     "project": "Every Music",
     "asset": "assets/projects/every-music.svg",
-    "sha256": "d153905d41c24e59f81f6b8c66927a097ee8acfdff747f2733adc93cce665e39",
+    "sha256": "af0cbf360d70e8ead39287e0be0c2fb2b798e11dda71c6cff1c1bbe59a11f52f",
     "license": "Apache-2.0",
     "repo": "mbianchidev/every-music",
-    "revision": "bd7bb6f720e90ecd5ca8bb7f78769841d3427060",
+    "revision": "ccd739119f0daf893c1b330306daa85685d450f8",
     "source": "frontend/brand/app-icon.svg",
     "notice": "assets/projects/licenses/every-music-LICENSE.txt"
   },
@@ -326,7 +330,7 @@
     "asset": "assets/projects/sendbox-fleet.svg",
     "sha256": "4db0b676fce9ae5a39ee23d3bf39059951796948642d1707b7cd404b854673c5",
     "license": "Apache-2.0",
-    "repo": "mbianchidev/sendbox-fleet",
+    "repo": "sendbox-dev/sendbox-fleet",
     "revision": "1a3636da43d9122cee1f6e3a9dc8e2bba28063fe",
     "source": "docs/assets/logo.svg",
     "notice": "assets/projects/licenses/sendbox-fleet-LICENSE.txt"
