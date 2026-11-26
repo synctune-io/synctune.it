@@ -39,11 +39,14 @@ provider-neutral workbench for pre-sales and post-sales. The source is currently
 private: link to the project section on the branch website, not a private
 repository or documentation URL. This repository does not rebuild that site.
 
-Organization profiles contain planned transfer destinations. Public source
-links deliberately use the verified current repositories, often under
-`mbianchidev`, rather than nonexistent future paths. After a transfer, confirm
-the new repository and update links here and on the relevant branch site.
-The directory makes no live GitHub API calls.
+Porto, SendBox, SendBox Fleet, Stainless, Denote and Moguri live in their own
+organizations: `porto-containers`, `sendbox-dev`, `stainless-browser`,
+`denote-io` and `moguri-dev`. Fiscal Fox lives in `synctune-finance` and is
+private. Other projects may still use `mbianchidev`. Before adding or changing
+a source link, resolve the repository with
+`gh api repos/OWNER/NAME --jq '.full_name, .visibility'` and use the returned
+owner. Link only public repositories. After a transfer, update links here and
+on the relevant branch site. The directory makes no live GitHub API calls.
 
 The public branch name is **Synctune Consulting**, at `consulting.synctune.it`.
 Its GitHub organization intentionally retains the `synctune-customers` slug.
@@ -60,9 +63,14 @@ directory group, not the general independent group. Denote and Moguri retain
 their independent identities. The project websites use these destinations:
 
 - Denote: `https://denote.synctune.it`
-- Open Playlist: `https://open-playlist.synctune.it`
+- Open Playlist: `https://open-playlist.synctune.it` (not `playlist.synctune.it`)
 - Open Playlist Engine: `https://op-engine.synctune.it`
 - Moguri: `https://moguri.synctune.it`
+- Porto: `https://porto.synctune.it`
+- SendBox: `https://sendbox.synctune.it`
+- Stainless: `https://stainless.synctune.it`
+- Fiscal Fox: `https://fiscal-fox.synctune.it`
+- b143ck.music: `https://b143ck.synctune.it`
 
 These domains are intentional even before their websites are deployed. Keep
 them linked from the home, company and portfolio pages. This repository does
@@ -72,8 +80,7 @@ describe it as a Synctune branch.
 ## Brand source and rights
 
 The company mark, original six branch marks and unmodified fonts come from the
-approved collection in
-[synctune-io/branding](https://github.com/synctune-io/branding),
+approved collection in the private `synctune-io/branding` repository,
 snapshot `55764ef`.
 
 Use the approved outlined SVGs, retain their padding and proportions, and do
@@ -101,10 +108,14 @@ privacy text to describe the actual behavior.
 The home-page showcases and portfolio cards use the projects' actual app logos,
 not the Synctune branch symbols. The branch symbols still identify the branches.
 
-- `assets/projects/porto.png` is an unmodified copy of
-  `ui/electron/assets/porto.png` from `mbianchidev/porto` at commit
-  `22cf0b37e54aa3866cec50f311c6552fbe19dfba`. Its MIT notice is retained in
+- `assets/projects/porto.svg` is an unmodified copy of
+  `ui/public/favicon.svg` from `porto-containers/porto` at commit
+  `4b9dbdb0501c2d515c524108dde04d7c98f30c2c`. Its MIT notice is retained in
   `assets/projects/licenses/porto-MIT.txt`.
+- `assets/projects/moguri.svg` is an unmodified copy of `assets/moguri.svg`
+  from `moguri-dev/moguri` at commit
+  `3819075aa8d267ff250ce76740084414cd6f1466`. Its MIT notice is retained in
+  `assets/projects/licenses/moguri-LICENSE.txt`.
 - `assets/projects/studio-duo.svg` is an unmodified copy of
   `assets/branding/studio-duo-icon.svg` from `mbianchidev/studio-duo` at commit
   `bf853019806303eaadd1c179dca4c1fa8bc49286`. The supplied AGPL-3.0 license is
@@ -123,7 +134,9 @@ project sunflower have separate checksums in `assets/projects/provenance.json`.
 Public provenance omits private repository locations.
 
 Use a project's official mark in its catalog entry and showcase whenever one
-exists. Do not substitute branch symbols, stock Vite or Tauri icons, screenshots
+exists. Copy it from the source repository's default branch, not from an
+unmerged pull request, and update the revision and checksum in
+`assets/projects/provenance.json` when the source mark changes. Do not substitute branch symbols, stock Vite or Tauri icons, screenshots
 or unrelated artwork. Projects without a verified mark remain text-only.
 Preserve the original proportions, colors and notices; small marks use a 64px
 frame, while wide wordmarks have more room.
