@@ -145,7 +145,10 @@ The Gaming history entry briefly mentions Global Game Jam 2019 in Milan.
 
 ## Before publishing a change
 
-Check internal pages, anchors, local assets, project destinations and the
+Link pages without `.html` (`projects`, `about#privacy`, `./` for the home
+page) and use the same clean URLs in canonical, `og:url` and `sitemap.xml`.
+Preview with `node scripts/serve.mjs` (see [deployment](deployment.md)) and
+check internal pages, anchors, local assets, project destinations and the
 custom-domain files. Preview narrow and wide layouts, use the keyboard, try the
 directory search and reset, and reload with JavaScript disabled. Check that the
 font licenses remain present. No install or build step is required.

@@ -6,15 +6,21 @@ The repository root contains the finished website. There is no package manager,
 framework, generator, build command or runtime service. All fonts, images, CSS
 and JavaScript are local files. Do not run `npm install`.
 
-Open `index.html` in a browser to read the site. For an HTTP preview, use any
-static web server. If Python 3 is already available:
+Pages link to each other by clean URL, without `.html` (`projects`,
+`about#contact`). Those links need a server that maps them to files the way
+GitHub Pages does, so opening `index.html` from disk shows a page but not the
+links between pages. Preview with the bundled server, which uses only Node.js
+built-in modules:
 
 ```sh
-python3 -m http.server 8080 --bind 127.0.0.1
+node scripts/serve.mjs
 ```
 
-Visit `http://127.0.0.1:8080`. Stop the server with Ctrl+C.
-Python is an optional preview tool, not a website dependency.
+Visit `http://127.0.0.1:8080`; add `--port 3000` to use another port. Stop the
+server with Ctrl+C. Like GitHub Pages, it serves `/about` from `about.html`,
+still serves `.html` addresses, and answers anything else with `404.html` and
+status 404. It serves only the published files. Node.js is an optional preview
+tool, not a website dependency, and `scripts/` is not published.
 
 ## Set up GitHub Pages
 
@@ -68,8 +74,11 @@ standard `GITHUB_TOKEN` and GitHub's OIDC token.
 
 The workflow does not run Jekyll. `CNAME`, `robots.txt` and `sitemap.xml` already
 describe the intended hostname. Asset and internal-page links are relative,
-so the content also works under a Pages repository path. Canonical and
-social-preview URLs intentionally use the final custom domain.
+so the content also works under a Pages repository path. Page links omit
+`.html` (`projects`, `about`, `./` for the home page); GitHub Pages serves
+`/about` from `about.html`, and old `.html` addresses keep working. Canonical,
+social-preview and sitemap URLs intentionally use the final custom domain with
+the same clean URLs, such as `https://synctune.it/projects`.
 
 Deploy each site independently. Links to other Synctune subdomains will work
 when their owners deploy those sites. Denote, Open Playlist, Open Playlist
@@ -79,8 +88,10 @@ their websites.
 ## Other static hosts
 
 Publish the repository root as static files. Leave the install and build
-commands empty. The site needs no environment variables, API keys, rewrites,
-server functions or network API.
+commands empty. The site needs no environment variables, API keys, server
+functions or network API, but the host must serve clean URLs as GitHub Pages
+does: `/about` from `about.html`. Enable the host's clean URL option if that is
+not its default.
 
 `404.html` is a standalone fallback. GitHub Pages uses it for missing paths;
 on another host, select it as the not-found page if required.
