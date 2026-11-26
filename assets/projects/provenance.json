@@ -282,10 +282,10 @@
   {
     "project": "Every Music",
     "asset": "assets/projects/every-music.svg",
-    "sha256": "af0cbf360d70e8ead39287e0be0c2fb2b798e11dda71c6cff1c1bbe59a11f52f",
+    "sha256": "e05a1bbb7accae885cebc86e67a85799964d40eb3814cc7a538fd16cb919d7ab",
     "license": "Apache-2.0",
     "repo": "mbianchidev/every-music",
-    "revision": "ccd739119f0daf893c1b330306daa85685d450f8",
+    "revision": "f9cc6ebc563598c71433596bd6a5b5c8e74fa591",
     "source": "frontend/brand/app-icon.svg",
     "notice": "assets/projects/licenses/every-music-LICENSE.txt"
   },
