@@ -70,6 +70,7 @@ their independent identities. The project websites use these destinations:
 - SendBox: `https://sendbox.synctune.it`
 - Stainless: `https://stainless.synctune.it`
 - Fiscal Fox: `https://fiscal-fox.synctune.it`
+- b143ck.music: `https://b143ck.synctune.it`
 
 These domains are intentional even before their websites are deployed. Keep
 them linked from the home, company and portfolio pages. This repository does
